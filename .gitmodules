@@ -1,0 +1,6 @@
+[submodule "video_analysis"]
+	path = video_analysis
+	url = git@github.com:mickn/video_analysis.git
+[submodule "py_util"]
+	path = py_util
+	url = git@github.com:mickn/py_util.git

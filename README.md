@@ -1,16 +1,17 @@
-# Step
+# Step 1
 Clone this folder to your computer. You can do this by cd-ing into a directory of choice, and then running
 ```git clone --recursive git@github.com:mickn/epm_video.git```
-Now you'll see a new folder called 'epm_video'. You can 'cd' into this folder.
 
-# Step
+# Step 2
+Go to the newly created folder
+```cd ./epm_video```
+
+# Step 3
 In 'Terminal' run: ```export PATH=~/anaconda2/bin:$PATH```
 
-# Step
+# Step 4
 In 'Terminal' run ```ipython --pylab```
 
-# Step
+# Step 5
 Now run ```%run 01-setzones.py``` 
-
-git@github.com:mickn/py_util.git
-git@github.com:mickn/video_analysis.git
+This should bring up a screen where you can add the 8 points to the video.
